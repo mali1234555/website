@@ -1,0 +1,521 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.phone
+{
+    width: 20px;
+    padding-left: 20px;
+    padding-right: 15px;
+}   
+header
+{
+    font-size: larger;
+    font-family: 'IRON MAN OF WAR 002 NCV', sans-serif;
+    color: grey;
+}
+nav
+{
+ background: black;
+ text-align: center;
+}
+.bars a
+{
+    float: left;
+    text-decoration: none;
+    color: #b87fff;
+}
+.active, .bars ul li a::after  {
+
+   color: turquoise;
+}
+.active, .bars ul li a:hover
+{
+    color: turquoise;
+}
+.active, .bars ul li:hover
+{
+    color: turquoise;
+    border-radius: 3px;
+}
+.bars ul
+{
+    display:flex;
+}
+.bars ul li
+{
+    font-size: 30px;
+    font-family: 'IRON MAN OF WAR 002 NCV', sans-serif;
+    color: #b87fff;
+    list-style: none;
+    padding-top: 35px;
+    margin-bottom: 30px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.sub-menu
+{
+    display: none;
+}
+.bars ul li:hover .sub-menu
+{
+    display: block;
+    position: absolute;
+}
+.bars ul li:hover .sub-menu ul
+{
+    display: block;
+    background: black;
+    margin: 10px;
+    height: 350px;
+}
+.active, .bars ul li:hover
+{
+    color: turquoise;
+}
+.active, .bars ul li a:hover
+{
+    color: turquoise;
+}
+.image1
+{
+    float: right;
+background:black;
+padding-right: 50px;
+}
+h1
+{
+    float: right;
+    color: gold;
+    padding-top: 30px;
+    padding-right:10px ;
+    font-size: 30px;
+}
+h2
+{
+    font-family: Pussycat, Algerian, Broadway,  fantasy;
+    font-size: 70px;
+    text-shadow: 5px 5px black;
+    color:#FFD361;
+    text-align: center;
+}
+p
+{
+    text-align: justify;
+    width: 1450px;
+}
+.sabi
+{
+    width: auto;
+    height: 448px;
+    padding-left: 40px;
+    float: left;
+    margin-top: 80px;
+    padding-right: 100px;   
+}
+.first
+{
+    font-family: 'Edo SZ', sans-serif;
+    padding-top: 95px;
+    margin-right: 50px;
+    font-size: 23px;
+}
+.family
+{
+    width: auto;
+    height: 370px;
+    float: right;
+    padding-top: 150px;
+    margin-right: 60px;
+    margin-left: 40px;
+}
+.second
+{
+    font-family: 'Edo SZ', sans-serif;
+    padding-top: 170px;
+    font-size: 23px;
+    margin-left: 40px;
+}
+.pad
+{
+    margin-top: 50px;
+}
+h3
+{
+    font-family: "Bauhaus 93";
+    font-size: 100px;
+    padding-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.painting
+{
+    float: left;
+    width: auto;
+    height: 500px;
+    padding-left: 4 0px;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+.third
+{
+    font-family: 'Edo SZ', sans-serif;
+    font-size: 23px;  
+    padding-top: 150px;
+}
+.painting2
+{
+    float: right;
+    width: auto;
+    height: 450px;
+    padding-top: 100px;
+    margin-right: 80px;
+    margin-left: 40px;
+}
+.fourth
+{
+    font-family: 'Edo SZ', sans-serif;
+    font-size: 23px; 
+    padding-top: 290px;
+    margin-left: 30px;
+}
+.language
+{
+    float: left;
+    width: auto;
+    height: 590px;
+}
+.fifth, .sixth
+{
+    font-family: 'Edo SZ', sans-serif;
+    font-size: 23px;
+    padding-top: 10px;
+}
+.clothing
+{
+    float: right;
+    width: auto;
+    height: 500px;
+    padding-right: 80px;
+    padding-left: 50px;
+}
+.seventh
+{
+    font-family: 'Edo SZ', sans-serif;
+    font-size: 23px;
+    padding-top: 150px;
+    margin-left: 20px;
+}
+.clothing, .seventh
+{
+    margin-bottom: 100px;
+}
+.dress
+{
+    width: auto;
+    height: 500px;
+    padding-left: 25px;
+    float: left;
+    margin-right: 60px;
+}
+.dance
+{
+    width: auto;
+    height: 400px;
+    padding-right: 70px;
+    margin-top: 50px;
+    float: right;
+    padding-left: 50px;
+}
+.khwapa
+{
+    width: auto;
+    height: 400px;
+    padding-left: 20px;
+    margin-top: 50px;
+    float: left;
+    padding-right: 30px;
+}
+.one
+{
+    font-family: 'Edo SZ', sans-serif ;
+    font-size: 23px;
+    margin-top: 90px;
+}
+.two
+{
+    font-family: 'Edo SZ', sans-serif ;
+    font-size: 23px;
+    margin-top: 30px;
+    padding-bottom: 60px;  
+}
+.dhime
+{
+    width: auto;
+    height: 300px;
+    padding-top: 20px;
+    margin-left: 40px;
+    float: right;
+    margin-right: 70px;
+}
+.three
+{
+    font-family: 'Edo SZ', sans-serif ;
+    font-size: 23px;
+    margin-top: 120px;
+    padding-left: 20px; 
+    padding-bottom: 60px;   
+}
+.four
+{
+    font-family: 'Edo SZ', sans-serif ;
+    font-size: 23px;
+    margin-top: 120px;
+    padding-left: 20px;
+    padding-bottom: 60px;
+}
+.music
+{
+    width: auto;
+    height: 500px;
+    padding-left: 20px;
+    margin-top: 20px;
+    float: left;
+    padding-right: 20px;
+    margin-bottom: 100px;
+}
+.five
+{
+    font-family: 'Edo SZ', sans-serif ;
+    font-size: 23px; 
+    margin-top: 120px; 
+}
+.six
+{
+    font-family: 'Edo SZ', sans-serif ;
+    font-size: 23px; 
+    margin-top: 20px;
+}
+.baji
+{
+    width: auto;
+    height: 500px;
+    padding-top: 50px;
+    margin-left: 20px;
+    margin-right: 30px;
+    float: left;
+}
+.dakani
+{
+    width: auto;
+    height: 400px;
+    float: right;    
+    padding-top: 20px;
+    margin-right: 60px;
+    margin-left: 40px   ;
+}
+.head
+{
+    font-family: "Bauhaus 93" ;
+    font-size: 50px;
+    margin-top: 90px;
+    padding-left: 20px;
+}
+.head2
+{
+    font-family: "Bauhaus 93" ;
+    font-size: 50px; 
+    margin-top: 20px;
+    padding-left: 20px;
+}
+.topic
+{
+    font-family: 'Edo SZ', sans-serif ;
+    font-size: 23px; 
+    padding-left: 20px;  
+}
+.heat
+{
+    font-family: 'Edo SZ', sans-serif ;
+    font-size: 23px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+.pulao
+{
+    width: auto;
+    height: 500px;
+    float: left;
+    padding-left: 20px;
+    padding-right: 40px;
+}
+.head1
+{
+    font-family: "Bauhaus 93" ;
+    font-size: 50px; 
+    margin-top: 20px;
+    padding-left: 20px;
+}
+.heat1
+{
+    font-family: 'Edo SZ', sans-serif ;
+    font-size: 23px;
+    padding-left: 20px;
+    margin-bottom: 50px;
+}
+.chhon
+{
+    width: auto;
+    height: 500px;
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.head3
+{
+    font-family: "Bauhaus 93" ;
+    font-size: 50px; 
+    margin-top: 300px;
+    padding-left: 20px;
+}
+.chhon1
+{
+    width: auto;
+    height: 500px;
+    float: right;
+    padding-left: 20px;
+    padding-right: 80px;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+.choila
+{
+    width: auto;
+    height: 400px;
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px; 
+    margin-top: 40px; 
+    margin-bottom: 50px; 
+}
+.choila1
+{
+    font-family: 'Edo SZ', sans-serif;
+    padding-top: 100px;
+    margin-right: 50px;
+    font-size: 23px;  
+}
+.haku
+{
+    width: auto;
+    height: 400px;
+    float: right;
+    padding-left: 20px;
+    padding-right: 80px; 
+    margin-top: 50px;
+}
+.haku1
+{
+    font-family: 'Edo SZ', sans-serif;
+    padding-top: 100px;
+    margin-left: 20px;
+    font-size: 23px;
+}
+.haku2
+{
+    font-family: 'Edo SZ', sans-serif;
+    padding-top: 50px;
+    margin-left: 20px;
+    font-size: 23px;
+}
+.profile{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+}
+.kachila
+{
+    width: auto;
+    height: 400px;
+    float: right;
+    padding-left: 20px;
+    padding-right: 70px; 
+    margin-top: 250px; 
+    margin-bottom: 50px;   
+}
+.head4
+{
+    font-family: "Bauhaus 93" ;
+    font-size: 50px; 
+    margin-top: 250px;
+    padding-left: 20px;   
+}
+.process
+{
+    font-family:'Edo SZ', sans-serif ;
+    font-size: 23px;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+.samaybaji
+{
+    width: auto;
+    height: 300px;
+    float: left;
+    padding-left: 20px;
+    padding-right: 40px;
+}
+.samaybaji1
+{
+    font-family: 'Edo SZ', sans-serif;
+    margin-right: 50px;
+    font-size: 23px;
+}
+.samaybaji2
+{
+    width: auto;
+    height: 400px;
+    float: right;
+    padding-top: 50px;
+    margin-right: 70px;
+    margin-left: 40px;
+}
+.samaybaji3
+{
+    font-family: 'Edo SZ', sans-serif;
+    margin-right: 50px;
+    font-size: 23px;
+    padding-top: 100px;
+    margin-left: 20px;
+}
+.space
+{
+    margin-top: 50px;
+}
+.samaybaji4
+{
+    width: auto;
+    height: 450px;
+    float: left;
+    margin-top: 150px;
+    padding-left: 20px;
+    padding-right: 40px;
+    margin-bottom: 50px;
+}
+.samaybaji5
+{
+    margin-top: 200px;
+    font-family:'Edo SZ', sans-serif ;
+    font-size: 23px;
+}
+h5
+{
+    font-size: 50px;
+    font-family: 'Benedicto', sans-serif;
+    color: grey;
+}
+.body1
+{
+    background-color: rgb(142, 141, 141) ;
+}
